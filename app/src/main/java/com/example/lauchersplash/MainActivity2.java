@@ -2,6 +2,7 @@ package com.example.lauchersplash;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 
 
 import android.annotation.SuppressLint;
@@ -21,6 +22,7 @@ public class MainActivity2 extends AppCompatActivity {
     CardView maps;
     Uri geoLocation;
     CardView Shopping;
+    CardView btn_fragment;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -34,6 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
         setalarm = (CardView)findViewById(R.id.to_alarm);
         maps = (CardView) findViewById(R.id.to_maps);
         Shopping = (CardView) findViewById(R.id.to_shopping) ;
+        btn_fragment = (CardView) findViewById(R.id.to_fragment2);
 
         hello.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,10 +83,11 @@ public class MainActivity2 extends AppCompatActivity {
                 }
             }
         });
-        Shopping.setOnClickListener(new View.OnClickListener() {
+
+        btn_fragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Buka = new Intent(MainActivity2.this, Shopping.class);
+                Intent Buka = new Intent(MainActivity2.this, fragment2.class);
                 startActivity(Buka);
             }
         });

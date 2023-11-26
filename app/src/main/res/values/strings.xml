@@ -70,4 +70,16 @@
     <string name="ResetData">RESET DATA</string>
     <string name="Keluar">KELUAR</string>
     <string name="NamaPelanggan">Nama pelanggan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Action Movie</string>
+    <string name="hello_blank_fragment2">Comedy movie</string>
+    <string name="hello_blank_fragment3">Romance Movie</string>
+    <string name="botton3">Romance Movie</string>
+    <string name="botton1">Action Movie</string>
+    <string name="botton2">Comedy Movie</string>
+    <string name="indonesian_movies">INDONESIAN MOVIES</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

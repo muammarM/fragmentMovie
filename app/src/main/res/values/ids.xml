@@ -7,4 +7,5 @@
     <item name="totalbelanja" type="id" />
     <item name="uangkembali" type="id" />
     <item name="keterangan" type="id" />
+    <item name="to_fragment" type="id" />
 </resources>
