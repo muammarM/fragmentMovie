@@ -24,11 +24,10 @@ import android.widget.ImageView;
         logo.animate().translationX(-4000).setDuration(1000).setStartDelay(2300);
         img.animate().translationX(-4000).setDuration(1000).setStartDelay(2300);
 
-
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(splashactvity.this, MainActivity.class);
+                Intent i = new Intent(splashactvity.this, MainActivity2.class);
                 startActivity(i);
                 finish();
             }
