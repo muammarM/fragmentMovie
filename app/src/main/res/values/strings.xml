@@ -57,4 +57,17 @@
         in the beginning, six years earlier. This take shows how they did it much more slowly,
         with an R&amp;B feel to it.
     </string>
+    <string name="NamaPembeli">Nama Pembeli :</string>
+    <string name="JudulEbook">Judul Ebook :</string>
+    <string name="JumlahBeli">Jumlah Beli:</string>
+    <string name="HargaRp">Harga : Rp</string>
+    <string name="UangBayarRp">Uang Bayar: Rp</string>
+    <string name="Proses">PROSES</string>
+    <string name="TotalBelanja">Total Belanja</string>
+    <string name="UangKembali">Uang Kembali</string>
+    <string name="Bonus">Bonus</string>
+    <string name="Keterangan">Keterangan</string>
+    <string name="ResetData">RESET DATA</string>
+    <string name="Keluar">KELUAR</string>
+    <string name="NamaPelanggan">Nama pelanggan</string>
 </resources>
